@@ -1,7 +1,6 @@
 {
   "name": "mon-backend-stripe",
   "version": "1.0.0",
-  "type": "module",
   "dependencies": {
     "@react-pdf/renderer": "^4.3.0",
     "@supabase/supabase-js": "^2.0.0",
