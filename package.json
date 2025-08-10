@@ -1,6 +1,7 @@
 {
   "name": "mon-backend-stripe",
   "version": "1.0.0",
+  "type": "module",
   "dependencies": {
     "@react-pdf/renderer": "^4.3.0",
     "@supabase/supabase-js": "^2.0.0",
@@ -10,12 +11,9 @@
     "cross-fetch": "^3.2.0",
     "formidable": "^3.5.4",
     "html-to-text": "^9.0.5",
-    "next": "^15.4.2",
     "nodemailer": "^6.10.1",
     "pdfkit": "^0.17.1",
     "puppeteer": "^24.10.1",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
     "redis": "^5.1.0",
     "stripe": "^11.0.0"
   },
@@ -24,5 +22,9 @@
     "@types/html-to-text": "^9.0.4",
     "@types/pdfkit": "^0.13.9",
     "@types/redis": "^4.0.11"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "vercel-build": "echo 'No build step needed for backend'"
   }
 }
